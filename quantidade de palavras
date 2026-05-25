@@ -1,0 +1,7 @@
+def contar_palavras (frase):
+    palavras= frase.split () 
+    return len (palavras)
+
+frase_teste = input("digite uma frase: ")
+qnt_palavras = contar_palavras (frase_teste)
+print(f'A frase tem {qnt_palavras} palavras!')
